@@ -1,0 +1,27 @@
+PODS:
+  - CCViewCaptureKit (1.5.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CCViewCaptureKit (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CCViewCaptureKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCViewCaptureKit: 7030230bfeb0209fa02c2842b989d3c62b840054
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: b4ba98ba6ea9eb0429a050df9190626ec292d789
+
+COCOAPODS: 1.8.4

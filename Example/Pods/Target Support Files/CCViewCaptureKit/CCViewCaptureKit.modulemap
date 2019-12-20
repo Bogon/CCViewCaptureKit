@@ -1,0 +1,6 @@
+framework module CCViewCaptureKit {
+  umbrella header "CCViewCaptureKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

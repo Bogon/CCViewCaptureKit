@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CCViewCaptureKit_Example' do
+  pod 'CCViewCaptureKit', :path => '../'
+
+  target 'CCViewCaptureKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end

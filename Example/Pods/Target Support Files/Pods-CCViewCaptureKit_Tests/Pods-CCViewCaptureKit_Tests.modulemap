@@ -1,0 +1,6 @@
+framework module Pods_CCViewCaptureKit_Tests {
+  umbrella header "Pods-CCViewCaptureKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
